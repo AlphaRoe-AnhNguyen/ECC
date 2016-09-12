@@ -16,7 +16,7 @@ namespace ECC.Core.Test
         }
 
         [TestMethod]
-        public void Calculates_The_Ohm_Value_Based_On_Bands()
+        public void Calculates_The_Ohm_Value_Based_On_Bands_Test()
         {
 
             var expectedResult = _resistor.CalculateOhmValue(Enums.ColorEnum.Yellow.ToString(), Enums.ColorEnum.Violet.ToString(), Enums.ColorEnum.Red.ToString());
@@ -26,7 +26,7 @@ namespace ECC.Core.Test
         }
 
         [TestMethod]
-        public void Calculates_Real_Value_Based_On_Bands()
+        public void Estimates_Real_Values_Based_On_Bands_Test()
         {
             var expectedResult = _resistor.RealCalculateOhmValue(Enums.ColorEnum.Yellow.ToString(), Enums.ColorEnum.Violet.ToString(), Enums.ColorEnum.Red.ToString(), Enums.ColorEnum.Gold.ToString());
 
@@ -34,7 +34,7 @@ namespace ECC.Core.Test
         }
 
         [TestMethod]
-        public void Calculates_Real_Value_Without_Tolerance_Value()
+        public void Estimates_Real_Values_Without_Tolerance_Value_Test()
         {
             var expectedResult = _resistor.RealCalculateOhmValue(Enums.ColorEnum.Yellow.ToString(), Enums.ColorEnum.Violet.ToString(), Enums.ColorEnum.Red.ToString());
 

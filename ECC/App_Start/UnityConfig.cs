@@ -1,7 +1,7 @@
 using System;
 using Microsoft.Practices.Unity;
 using Microsoft.Practices.Unity.Configuration;
-using ECC.Core.Models;
+using ECC.Core.Features;
 using ECC.Core.Interfaces;
 
 
