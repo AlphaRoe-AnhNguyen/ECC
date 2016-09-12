@@ -39,9 +39,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Models\ResistorCalculator.cs" />
+    <Compile Include="Features\ResistorCalculator.cs" />
     <Compile Include="Enums\ColorEnum.cs" />
     <Compile Include="Interfaces\IOhmValueCalculator.cs" />
+    <Compile Include="Models\ResistorModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
