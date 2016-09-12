@@ -1,0 +1,10 @@
+C:\Users\ANH\documents\visual studio 2013\Projects\ECC\ECC.Infrastructure\bin\Debug\ECC.Infrastructure.dll.config
+C:\Users\ANH\documents\visual studio 2013\Projects\ECC\ECC.Infrastructure\bin\Debug\ECC.Infrastructure.dll
+C:\Users\ANH\documents\visual studio 2013\Projects\ECC\ECC.Infrastructure\bin\Debug\ECC.Infrastructure.pdb
+C:\Users\ANH\documents\visual studio 2013\Projects\ECC\ECC.Infrastructure\bin\Debug\EntityFramework.dll
+C:\Users\ANH\documents\visual studio 2013\Projects\ECC\ECC.Infrastructure\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ANH\documents\visual studio 2013\Projects\ECC\ECC.Infrastructure\bin\Debug\EntityFramework.xml
+C:\Users\ANH\documents\visual studio 2013\Projects\ECC\ECC.Infrastructure\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ANH\documents\visual studio 2013\Projects\ECC\ECC.Infrastructure\obj\Debug\ECC.Infrastructure.csprojResolveAssemblyReference.cache
+C:\Users\ANH\documents\visual studio 2013\Projects\ECC\ECC.Infrastructure\obj\Debug\ECC.Infrastructure.dll
+C:\Users\ANH\documents\visual studio 2013\Projects\ECC\ECC.Infrastructure\obj\Debug\ECC.Infrastructure.pdb

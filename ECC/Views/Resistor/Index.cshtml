@@ -1,0 +1,53 @@
+﻿@model ECC.Models.ResistorViewModels
+
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Registor</h2>
+<hr />
+
+<h3>Electronic Rating Calculator </h3>
+<p>Please enter the color bands</p><br />
+<div class="row">
+    <div class="col-sm-4 col-sm-offset-1">
+        @using (Html.BeginForm("Index", "Resistor", FormMethod.Post, new { role = "form" }))
+        {
+            <div class="form-group">
+                @Html.LabelFor(m => m.BandA)
+                @Html.DropDownListFor(m => m.BandA, Model.ComponentValues, "--Please select--", new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.BandA)
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(m => m.BandB)
+                @Html.DropDownListFor(m => m.BandB, Model.ComponentValues, "--Please select--", new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.BandB)
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(m => m.BandC)
+                @Html.DropDownListFor(m => m.BandC, Model.ComponentValues, "--Please select--", new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.BandC)
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(m => m.BandD)
+                @Html.DropDownListFor(m => m.BandD, Model.TolenranceValues, "--Please select--", new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.BandD)
+            </div>
+
+            <button type="submit" class="btn btn-primary">Calculate</button>
+        }
+    </div>
+
+    <div class="col-sm-5">
+        <div class="form-group">
+            @Html.Label("Electronic Rate")
+            @Html.TextBoxFor(m => m.ResistorValue, new { @class = "resistorValue form-control" })
+        </div>
+        <div>
+            @Html.Label("Real Resistance Value between")
+            @Html.TextBoxFor(m => m.ResistorMinValue, new { @class = "resistorValue form-control" }) - @Html.TextBoxFor(m => m.ResistorMaxValue, new { @class = "resistorValue form-control" })
+        </div>
+
+    </div>
+</div>

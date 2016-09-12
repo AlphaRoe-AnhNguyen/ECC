@@ -1,0 +1,5 @@
+C:\Users\ANH\documents\visual studio 2013\Projects\ECC\ECC.Core\bin\Debug\ECC.Core.dll
+C:\Users\ANH\documents\visual studio 2013\Projects\ECC\ECC.Core\bin\Debug\ECC.Core.pdb
+C:\Users\ANH\documents\visual studio 2013\Projects\ECC\ECC.Core\obj\Debug\ECC.Core.csprojResolveAssemblyReference.cache
+C:\Users\ANH\documents\visual studio 2013\Projects\ECC\ECC.Core\obj\Debug\ECC.Core.dll
+C:\Users\ANH\documents\visual studio 2013\Projects\ECC\ECC.Core\obj\Debug\ECC.Core.pdb
