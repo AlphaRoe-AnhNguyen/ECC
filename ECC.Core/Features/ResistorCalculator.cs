@@ -23,7 +23,7 @@ namespace ECC.Core.Features
             double a = (double)(ColorEnum)Enum.Parse(typeof(ColorEnum), bandAColor);
             double b = (double)(ColorEnum)Enum.Parse(typeof(ColorEnum), bandBColor);
             double c = (double)(ColorEnum)Enum.Parse(typeof(ColorEnum), bandCColor);
-            var mean = (int)((a == 10D ? 0 : a) * Math.Pow(10, (c == 10D ? 0 : c) + 1) + (b == 10D ? 0 : b) * Math.Pow(10, (c == 10D ? 0 : c)));
+            var mean = (double)((a == 10D ? 0 : a) * Math.Pow(10, (c == 10D ? 0 : c) + 1) + (b == 10D ? 0 : b) * Math.Pow(10, (c == 10D ? 0 : c)));
 
             switch (bandDColor)
             {
